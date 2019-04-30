@@ -154,10 +154,10 @@ with open(path, mode='a') as g:
     g.write("\n" + pattern)
 
 # In[51]:
-path = "/Users/iwanaga/Githubprogram/weatherforecast/写真/"
+path = "/Users/iwanaga/Githubprogram/weatherforecast/pictures/"
 
 if pattern == "pta":
-    name = "佐々木千枝"
+    name = "chiesasaki"
     if a == "雨":
         message = "あっ、おはようございます。佐々木千枝です。今日の天気をお伝えします。\n"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"です。最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度です…\n傘を忘れないでくださいね...！#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
@@ -186,7 +186,7 @@ else:
 
 
 if pattern == "ptb":
-    name = "荒木比奈"
+    name = "hinaaraki"
     if a == "雨":
         message = "おはようございますっス！荒木比奈がお伝えする今日の天気予報っス\n"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"っス！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度っスよー。\n傘を忘れずに持っていくっスよ〜#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
@@ -215,7 +215,7 @@ else:
 
 
 if pattern == "ptc":
-    name = "上条春菜"
+    name = "harunakamijo"
     if a == "雨":
         message = "おはようございますっ！。上条春菜です！今日の天気予報をお伝えしますっ！\n"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"です。最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度です！\nたとえ雨で濡れてもメガネは外しませんっ！#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
@@ -248,7 +248,7 @@ else:
 
 
 if pattern == "ptd":
-    name = "松本沙理奈"
+    name = "sarinamatsumoto"
     if a == "雨":
         message = "朝からごくろうさま♪松本沙理奈が今日の天気予報をお伝えするわよ！\n"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ♪\nプロデューサー、傘♡忘れてない？#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
@@ -277,7 +277,7 @@ else:
 
 
 if pattern == "pte":
-    name = "川島瑞樹"
+    name = "mizukikawashima"
     if a == "雨":
         message = "おはようございますっ♪川島瑞樹が今日の天気をお知らせするわよ！"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"、最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ♪\n雨の日はゆっくり休みたいわね...#ブルナポ朝の天気予報　#ブルナポ応援企画"
         print(message)
