@@ -136,7 +136,7 @@ summary = str(summary)
 # In[31]:
 
 
-path = '/Users/iwanaga/Githubprogram/weatherforecast/record.txt'
+path = './record.txt'
 f = sum(1 for line in open(path))
 f_sen = linecache.getline(path, f)
 print(f_sen)
@@ -157,7 +157,7 @@ with open(path, mode='a') as g:
 
 # In[32]:
 print(pattern)
-path = "/Users/iwanaga/Githubprogram/weatherforecast/pictures/"
+path = "./pictures/"
 place = "東京"
 
 if pattern == "pta":

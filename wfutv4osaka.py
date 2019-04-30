@@ -135,7 +135,7 @@ summary = str(summary)
 
 # In[53]:
 
-path = '/Users/iwanaga/Githubprogram/weatherforecast/record.txt'
+path = './record.txt'
 f = sum(1 for line in open(path))
 f_sen = linecache.getline(path, f)
 print(f_sen)
@@ -154,7 +154,7 @@ with open(path, mode='a') as g:
     g.write("\n" + pattern)
 
 # In[51]:
-path = "/Users/iwanaga/Githubprogram/weatherforecast/pictures/"
+path = "./pictures/"
 
 if pattern == "pta":
     name = "chiesasaki"
