@@ -309,8 +309,8 @@ else:
 # In[37]:
 
 
-auth = tweepy.OAuthHandler(os.environ['ACCESS_token'],os.environ['ACCESS_token_secret'])
-auth.set_access_token(os.environ['API_key'],os.environ['API_secret'])
+auth = tweepy.OAuthHandler(os.environ['API_key'],os.environ['API_secret'])
+auth.set_access_token(os.environ['ACCESS_token'],os.environ['ACCESS_token_secret'])
 api = tweepy.API(auth)
 
 
