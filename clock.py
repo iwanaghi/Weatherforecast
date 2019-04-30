@@ -1,11 +1,11 @@
 from apscheduler.schedulers.blocking import BlockingScheduler
-import words
+import wfutv4re
 
 twische = BlockingScheduler()
 
-@twische.scheduled_job('interval',hours=24)
+@twische.scheduled_job('interval',minutes=1)
 def timed_job():
-    words.puttweet()
+    wfutv4re.tweet()
 
 if __name__ == "__main__":
     twische.start()
