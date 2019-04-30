@@ -9,6 +9,7 @@ import requests
 import datetime
 import random
 import linecache
+import os
 
 
 # In[2]:
@@ -305,8 +306,8 @@ else:
 # In[22]:
 
 
-auth = tweepy.OAuthHandler("Kwet0nyxsIv7FOIaRWeDXHzkF","blF1rKv0c75ha96pZI8dzZ2jccDPL4Aksrt5PlIktwoN8Aq3MC")
-auth.set_access_token("1072666798657429504-CBMwvToplcGiaBKsS8Abh4xLSnxRGi","czFoC4pz8AbrozQ3KQlKWdPaDn1D5KCeQSXySrnG8f0fV")
+auth = tweepy.OAuthHandler(os.environ['API_key'],os.environ['API_secret'])
+auth.set_access_token(os.environ['ACCESS_token'],os.environ['ACCESS_token_secret'])
 api = tweepy.API(auth)
 
 
