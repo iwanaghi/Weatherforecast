@@ -288,11 +288,11 @@ if pattern == "pte":
         print(message)
         pic = path + name + '/km7.jpg'
     elif a == "強風":
-        message = "おはようございますっ♪...おほん！\n川島瑞樹が今日の天気をお伝えします。"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"、最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ！\n今日も1日頑張りましょう♪#ブルナポ朝の天気予報　#ブルナポ応援企画"
+        message = "おはようございますっ♪...おほん！\n川島瑞樹が今日の天気をお伝えします。"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"、最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ！\n今日も1日頑張りましょう♪　#ブルナポ朝の天気予報　#ブルナポ応援企画"
         print(message)
         pic = path + name + '/km15.jpg'
     elif a == "くもり時々晴れ":
-        message = "おはようございますっ♪\n川島瑞樹が今日の天気をお知らせするわ！"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"、最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ！\nプロデューサー君、気温の変化には気をつけてね#ブルナポ応援企画"
+        message = "おはようございますっ♪\n川島瑞樹が今日の天気をお知らせするわ！"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"、最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ！\nプロデューサー君、気温の変化には気をつけてね　#ブルナポ朝の天気予報　#ブルナポ応援企画"
         print(message)
         pic = path + name + '/km5.jpg'
     else:
