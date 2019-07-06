@@ -162,7 +162,7 @@ if pattern == "pta":
     if a == "雨":
         message = "あっ、おはようございます。佐々木千枝です。今日の天気をお伝えします。\n"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"です。最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度です…\n傘を忘れないでくださいね...！#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
-        pic =  path + name + '/sc3.jpg'
+        pic =  path + name + '/sc7.jpg'
     elif a == "晴れ":
         message = "おはようございます。佐々木千枝です。今日の天気をお伝えします。\n"+tyear+"年"+tmonth+"月"+tday+"日の大阪の天気は"+a+"です。最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度です…\nいい天気になりますように！#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
