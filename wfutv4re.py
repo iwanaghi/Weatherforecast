@@ -263,5 +263,4 @@ def tweet():
 
     api.update_with_media(filename = pic, status = message)
 
-
     # In[ ]:

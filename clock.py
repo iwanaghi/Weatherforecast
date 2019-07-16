@@ -4,7 +4,7 @@ import wfutv4osaka
 
 twische = BlockingScheduler()
 
-@twische.scheduled_job('interval',hours=24)
+@twische.scheduled_job('interval',hours=23)
 def timed_job():
     wfutv4re.tweet()
     wfutv4osaka.tweet()
