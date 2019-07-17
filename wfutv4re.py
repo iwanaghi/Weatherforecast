@@ -207,19 +207,19 @@ if pattern == "ptd":
         print(message)
         pic = path + name + '/ms13.jpg'
     elif a == "晴れ":
-        message = "朝からごくろうさま♪松本沙理奈が今日の天気予報をお伝えするわよ！\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ♪\nプロデューサー、もっと解放的になりましょ♪#ブルナポ朝の天気予報 #ブルナポ応援企画"
+        message = "朝からごくろうさま♪松本沙理奈が今日の天気予報をお伝えするわよ！\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ♪\nプロデューサー、もっと解放的になりましょ♪ #ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
         pic = path + name + '/ms14.jpg'
     elif a == "強風":
-        message = "朝からごくろうさま♪今日の天気予報をお伝えするわよ！\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ♪\nプロデューサー、もっと解放的になりましょ#ブルナポ朝の天気予報 #ブルナポ応援企画"
+        message = "朝からごくろうさま♪今日の天気予報をお伝えするわよ！\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ♪\nプロデューサー、もっと解放的になりましょ #ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
         pic = path + name + '/ms13.jpg'
     elif a == "くもり時々晴れ":
-        message = "朝からごくろうさま♪今日の天気予報をお伝えするわよ！\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ♪\n船の上は解放的な気分にさせてくれるわ♪#ブルナポ朝の天気予報 #ブルナポ応援企画"
+        message = "朝からごくろうさま♪今日の天気予報をお伝えするわよ！\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ♪\n船の上は解放的な気分にさせてくれるわ♪ #ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
         pic = path + name + '/ms12.jpg'
     else:
-        message = "朝からごくろうさま♪松本沙理奈が今日の天気予報をお伝えするわよ！\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ♪\nプロデューサー、もっと解放的になりましょ#ブルナポ朝の天気予報 #ブルナポ応援企画"
+        message = "朝からごくろうさま♪松本沙理奈が今日の天気予報をお伝えするわよ！\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度よ♪\nプロデューサー、もっと解放的になりましょ #ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
         pic = path + name + '/ms12.jpg'
 else:
