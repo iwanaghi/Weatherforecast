@@ -75,7 +75,7 @@ print(low_temp_celsius_roundo)
 # In[9]:
 
 
-b = weather
+b = weathero
 if "rain" in b:
     b = "雨"
 else:
