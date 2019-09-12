@@ -141,17 +141,17 @@ f_sen = linecache.getline(path, f)
 print(f_sen)
 
 lo = ["pta","ptb","ptc","ptd","pte"]
-patterno=random.choice(lo)
-print(patterno)
+pattern=random.choice(lo)
+print(pattern)
 
-while patterno == f_sen:
-    print(patterno)
-    patterno = random.choice(lo)
+while pattern == f_sen:
+    print(pattern)
+    pattern = random.choice(lo)
 
-print(patterno)
+print(pattern)
 
 with open(path, mode='a') as g:
-    g.write("\n" + patterno)
+    g.write("\n" + pattern)
 
 # In[32]:
 print(pattern)
