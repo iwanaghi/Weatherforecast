@@ -160,19 +160,19 @@ place = "大阪"
 
 if pattern == "pta":
     name = "chiesasaki"
-    if a == "雨":
+    if b == "雨":
         message = "あっ、おはようございます。佐々木千枝です。今日の天気をお伝えします。\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"です。最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度です…\n傘を忘れないでくださいね...！#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
         pic =  path + name + '/sc8.jpg'
-    elif a == "晴れ":
+    elif b == "晴れ":
         message = "おはようございます。佐々木千枝です。今日の天気をお伝えします。\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"です。最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度です…\nいい天気になりますように！#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
         pic = path + name +'/sc4.jpg'
-    elif a == "雪":
+    elif b == "雪":
         message = "おはようございます。佐々木千枝です。今日の天気をお伝えします。\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"です。最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度です…\nプロデューサーさん！雪ですよ！ #ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
         pic = path + name + '/sc11.jpg'
-    elif a == "くもり時々晴れ":
+    elif b == "くもり時々晴れ":
         message = "おはようございます。佐々木千枝です。今日の天気をお伝えします。\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"です。最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度です。\nよくわからない天気ですね...#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
         pic = path + name + '/sc11.jpg'
