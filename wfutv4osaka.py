@@ -317,7 +317,7 @@ api = tweepy.API(auth)
 # In[23]:
 
 
-api.update_with_media(filename = pico, status = messageo)
+api.update_with_media(filename = pic, status = message)
 
 
 
