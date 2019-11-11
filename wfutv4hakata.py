@@ -156,7 +156,7 @@ with open(path, mode='a') as g:
 # In[32]:
 print(pattern)
 path = "./pictures/"
-place = "大阪"
+place = "博多"
 
 if pattern == "pta":
     name = "chiesasaki"
