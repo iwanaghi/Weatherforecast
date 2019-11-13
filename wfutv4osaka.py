@@ -223,7 +223,7 @@ if pattern == "ptc":
         print(message)
         pic = path + name + '/kh4.jpg'
     elif b == "晴れ":
-        message = "おはようございますっ！。上条春菜です！\n"+tyearo+"年"+tmontho+"月"+tdayo+"日の"+place+"の天気は"+b+"です。最高気温は"+high_temp_celsius_roundo+"度、最低気温は"+low_temp_celsius_roundo+"度です！\nまだまだ残暑は続きますよ！#ブルナポ朝の天気予報 #ブルナポ応援企画"
+        message = "おはようございますっ！。上条春菜です！\n"+tyearo+"年"+tmontho+"月"+tdayo+"日の"+place+"の天気は"+b+"です。最高気温は"+high_temp_celsius_roundo+"度、最低気温は"+low_temp_celsius_roundo+"度です！\n今日も一日頑張りましょう！#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
         pic = path + name + '/kh3.jpg'
     elif b == "雪":
