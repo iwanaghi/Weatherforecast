@@ -140,7 +140,7 @@ f = sum(1 for line in open(path))
 f_sen = linecache.getline(path, f)
 print(f_sen)
 
-lo = ["pta","ptb","ptc","ptd","pte"]
+lo = ["ptd"]
 pattern=random.choice(lo)
 print(pattern)
 
@@ -254,23 +254,23 @@ if pattern == "ptd":
     if b == "雨":
         message = "朝からごくろうさま♪松本沙理奈が今日の天気予報をお伝えするわよ！\n"+tyearo+"年"+tmontho+"月"+tdayo+"日の"+place+"の天気は"+b+"！最高気温は"+high_temp_celsius_roundo+"度、最低気温は"+low_temp_celsius_roundo+"度よ♪\nプロデューサー、傘♡忘れてない？#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
-        pic = path + name + '/ms13.jpg'
+        pic = path + name + '/ms16.jpg'
     elif b == "晴れ":
-        message = "朝からごくろうさま♪松本沙理奈が今日の天気予報をお伝えするわよ！\n"+tyearo+"年"+tmontho+"月"+tdayo+"日の"+place+"の天気は"+b+"！最高気温は"+high_temp_celsius_roundo+"度、最低気温は"+low_temp_celsius_roundo+"度よ♪\nプロデューサー、もっと解放的になりましょ♪ #ブルナポ朝の天気予報 #ブルナポ応援企画"
+        message = "朝からごくろうさま♪松本沙理奈が今日の天気予報をお伝えするわよ！\n"+tyearo+"年"+tmontho+"月"+tdayo+"日の"+place+"の天気は"+b+"！最高気温は"+high_temp_celsius_roundo+"度、最低気温は"+low_temp_celsius_roundo+"度よ♪\nプロデューサー、セクシーは年中無休よ！#ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
-        pic = path + name + '/ms14.jpg'
+        pic = path + name + '/ms16.jpg'
     elif a == "強風":
-        message = "朝からごくろうさま♪今日の天気予報をお伝えするわよ！\n"+tyearo+"年"+tmontho+"月"+tdayo+"日の"+place+"の天気は"+b+"！最高気温は"+high_temp_celsius_roundo+"度、最低気温は"+low_temp_celsius_roundo+"度よ♪\nプロデューサー、もっと解放的になりましょ #ブルナポ朝の天気予報 #ブルナポ応援企画"
+        message = "朝からごくろうさま♪今日の天気予報をお伝えするわよ！\n"+tyearo+"年"+tmontho+"月"+tdayo+"日の"+place+"の天気は"+b+"！最高気温は"+high_temp_celsius_roundo+"度、最低気温は"+low_temp_celsius_roundo+"度よ♪\nプロデューサー、セクシーは年中無休よ！ #ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
-        pic = path + name + '/ms13.jpg'
+        pic = path + name + '/ms16.jpg'
     elif b == "くもり時々晴れ":
         message = "朝からごくろうさま♪今日の天気予報をお伝えするわよ！\n"+tyearo+"年"+tmontho+"月"+tdayo+"日の"+place+"の天気は"+b+"！最高気温は"+high_temp_celsius_roundo+"度、最低気温は"+low_temp_celsius_roundo+"度よ♪\n船の上は解放的な気分にさせてくれるわ♪ #ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
-        pic = path + name + '/ms12.jpg'
+        pic = path + name + '/ms16.jpg'
     else:
-        message = "朝からごくろうさま♪松本沙理奈が今日の天気予報をお伝えするわよ！\n"+tyearo+"年"+tmontho+"月"+tdayo+"日の"+place+"の天気は"+b+"！最高気温は"+high_temp_celsius_roundo+"度、最低気温は"+low_temp_celsius_roundo+"度よ♪\nプロデューサー、もっと解放的になりましょ #ブルナポ朝の天気予報 #ブルナポ応援企画"
+        message = "朝からごくろうさま♪松本沙理奈が今日の天気予報をお伝えするわよ！\n"+tyearo+"年"+tmontho+"月"+tdayo+"日の"+place+"の天気は"+b+"！最高気温は"+high_temp_celsius_roundo+"度、最低気温は"+low_temp_celsius_roundo+"度よ♪\nプロデューサー、セクシーは年中無休よ！ #ブルナポ朝の天気予報 #ブルナポ応援企画"
         print(message)
-        pic = path + name + '/ms12.jpg'
+        pic = path + name + '/ms16.jpg'
 else:
     print(pattern)
 
