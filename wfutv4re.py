@@ -91,7 +91,7 @@ f = sum(1 for line in open(path))
 f_sen = linecache.getline(path, f)
 print(f_sen)
 
-l = ["ptd"]
+l = ["pta","ptb","ptc","ptd","pte"]
 pattern=random.choice(l)
 print(pattern)
 
@@ -143,7 +143,7 @@ if pattern == "ptb":
     if a == "雨":
             message = "おはようございますっス！荒木比奈がお伝えする今日の天気予報っス\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"っス！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度っスよー。\n傘を忘れずに持っていくっスよ〜#ブルナポ朝の天気予報 #ブルナポ応援企画"
             print(message)
-            pic = path + name + '/ah4.jpg'
+            pic = path + name + '/ah11.jpg'
     elif a == "晴れ":
             message = "おはようございますっス！荒木比奈がお伝えする今日の天気予報っス\n"+tyear+"年"+tmonth+"月"+tday+"日の"+place+"の天気は"+a+"っス！最高気温は"+high_temp_celsius_round+"度、最低気温は"+low_temp_celsius_round+"度っスよー。\nプロデューサー、いい天気っスね♪#ブルナポ朝の天気予報 #ブルナポ応援企画"
             print(message)
